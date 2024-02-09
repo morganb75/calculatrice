@@ -11,30 +11,37 @@
         <header>
             <div class="container-display">
                 <input type="text" disabled>
-                <input type="text">
+                <input type="text" disabled>
             </div>
         </header>
         <main>
             <div class="container-calc">
+                <button class="btn">C</button>
+                <button class="btn">&plusmn;</button>
+                <button class="btn">%</button>
+                <button class="btn">&divide;</button>
                 <button class="btn">7</button>
                 <button class="btn">8</button>
                 <button class="btn">9</button>
-                <button class="btn">/</button>
+                <button class="btn">x</button>
                 <button class="btn">4</button>
                 <button class="btn">5</button>
                 <button class="btn">6</button>
-                <button class="btn">x</button>
+                <button class="btn">-</button>
                 <button class="btn">1</button>
                 <button class="btn">2</button>
                 <button class="btn">3</button>
-                <button class="btn">-</button>
-                <button class="btn">0</button>
-                <button class="btn">.</button>
-                <button class="btn">C</button>
                 <button class="btn">+</button>
             </div>
+            <div class="container-calc-last-row">
+                <button class="btn-l-r">0</button>
+                <button class="btn-l-r">,</button>
+                <button id="btn-eq"  class="btn-l-r">=</button>
+            </div>
+            
         </main>
     </div>
+    <script src="fonctions.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

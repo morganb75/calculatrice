@@ -8,7 +8,7 @@ body {
    align-items: center;
    width: 50%;
    margin: 0 auto;
-   margin-top: 20%;
+   margin-top: 10%;
 }
 
 input {
@@ -28,6 +28,16 @@ button {
     border: 2px solid whitesmoke;
     border-radius: 10px;
 }
+
+.btn-l-r {
+    margin-right: 2px;
+}
+
+#btn-eq {
+    width: 162px;
+    height: 80px;
+}
+
 
 button:hover {
     background: whitesmoke;
@@ -58,5 +68,8 @@ button:hover {
     gap: 2px;
 }
 
-
-
+.container-calc-last-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+}
