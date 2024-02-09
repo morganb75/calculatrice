@@ -10,15 +10,15 @@
     <div class="main-container">
         <header>
             <div class="container-display">
-                <input type="text" disabled>
-                <input type="text" disabled>
+                <input id="input-value" type="text" disabled>
+                <input id="input-result" type="text" disabled>
             </div>
         </header>
         <main>
             <div class="container-calc">
-                <button class="btn">C</button>
-                <button class="btn">&plusmn;</button>
-                <button class="btn">%</button>
+                <button class="btn-c">C</button>
+                <button class="btn-plus-min">&plusmn;</button>
+                <button class="btn-percent">%</button>
                 <button class="btn">&divide;</button>
                 <button class="btn">7</button>
                 <button class="btn">8</button>
@@ -34,14 +34,15 @@
                 <button class="btn">+</button>
             </div>
             <div class="container-calc-last-row">
-                <button class="btn-l-r">0</button>
-                <button class="btn-l-r">,</button>
-                <button id="btn-eq"  class="btn-l-r">=</button>
+                <button class="btn-l-r" >0</button>
+                <button class="btn-l-r" >,</button>
+                <button class="btn-eq">=</button>
             </div>
             
         </main>
     </div>
-    <script src="fonctions.js"></script>
+    <script src="fctnsOperandes.js"></script>
+    <script src="fctnsDisplay.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
