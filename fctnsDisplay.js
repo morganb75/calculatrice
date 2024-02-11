@@ -19,7 +19,7 @@ buttons.forEach(function(button) {
 /* Fonction assurant le traitement de ce qu'on récupère en input display
  lorsqu'on presse la touche "egal" */
 
-function processingInput(operation){
+function processingInput(operation) {
     let eqButton = document.getElementById("btn-eq");
     eqButton.addEventListener("click",() => {
         operation = document.getElementById("input-value").value;
