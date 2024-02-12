@@ -1,2 +1,3 @@
+reset();
 displayValue();
 processingInput();

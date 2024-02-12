@@ -16,6 +16,18 @@ buttons.forEach((button) => {
             })
 })}
 
+/* Fonction de reset du display */
+
+function reset() {
+    let resButton = document.getElementById("res");
+    let resDisplay = document.getElementById("input-result");
+    let inputDisplay = document.getElementById("input-value"); 
+    resButton.addEventListener("click", () => {
+                inputDisplay.value = "";
+                resDisplay.value = "";
+    });
+}
+
 /* Fonction assurant le traitement de ce qu'on récupère en input display
  lorsqu'on presse la touche "egal" */
 
@@ -33,9 +45,7 @@ function processingInput(operation) {
         num1 = result[0];
         num2 = result[2];
         operande = result[1];
-        console.log(result);
-        console.log(num1+" "+num2+" "+operande);
-
+        
         switch(operande) {
             case '+': resFinal = sum(num1,num2);
             break;
